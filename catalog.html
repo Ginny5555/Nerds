@@ -12,12 +12,12 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header-wrapper clearfix">
+        <div class="header-wrapper ">
           <a href="href=‘./’">
             <img alt="header-navigation-wrapper__logo" src="img/nerds-logo.png"
           /></a>
 
-          <nav class="header-wrapper__logo">
+          <nav class="header-wrapper__navigation">
             <ul>
               <li>
                 <a href="#">СТУДИЯ</a>
@@ -33,7 +33,7 @@
                 <a href="#">КОНТАКТЫ</a>
               </li>
 
-              <li class="header-navigation-iconed">
+              <li class="header-navigation__icon">
                 <a href="#" class="basket">КОРЗИНА</a>
               </li>
             </ul>
@@ -43,13 +43,11 @@
         <div class="store">
           <h1>Магазин готовых шаблонов</h1>
         </div>
-
-        <div class="clearfix"></div>
       </div>
     </header>
     <div class="container wrapper">
       <div class="choice">
-        <div class="price-controls-box">
+        <div class="choice-controls__box">
           <h3>СТОИМОСТЬ:</h3>
           <form action="form.php" method="GET">
             <div class="range-filter">
@@ -72,12 +70,12 @@
             </div>
           </form>
         </div>
-        <div class="grid">
-          <div class="grid-title">
+        <div class="choice__grid">
+          <div class="choice-grid__title">
             <h3>СЕТКА:</h3>
           </div>
 
-          <div class="grid-list">
+          <div class="choice-grid__list">
             <label class="radio">
               <input type="radio" />
               <div class="radio__text">Адаптированая</div>
@@ -94,11 +92,11 @@
             </label>
           </div>
         </div>
-        <div class="features">
-          <div class="features-title">
+        <div class="choice__features">
+          <div class="choice-features__title">
             <h3>ОСОБЕННОСТИ:</h3>
           </div>
-          <div class="features-list">
+          <div class="choice-features__list">
             <label>
               <input type="checkbox" />
               <span class="pseudocheckbox">Cлайдер</span>
@@ -123,154 +121,152 @@
         </div>
         <a class="show" href="#">ПОКАЗАТЬ</a>
       </div>
-      <div class="catalog-box">
-        <div class="catalog-box-inside">
-          <div class="titles">
-            <div class="sort">
-              <div class="sort-title">
-                <h3>СОРТИРОВАТЬ:</h3>
-              </div>
-              <div class="filter">
-                <ul>
-                  <li><a href="#" class="variant">ПО ЦЕНЕ</a></li>
-                  <li><a href="#" class="variant">ПО ТИПУ</a></li>
-                  <li><a href="#" class="variant">ПО НАЗВАНИЮ</a></li>
 
-                  <a href="#" class="direction">
-                    <img src="img/icon-down-dir.png" alt="down"
-                  /></a>
-                  <a href="#" class="direction">
-                    <img src="img/icon-up-dir.png" alt="up"
-                  /></a>
-                </ul>
-              </div>
+      <div class="catalog">
+        <div class="catalog__titles">
+          <div class="catalog__sort">
+            <div class="catalog-sort__titles">
+              <h3>СОРТИРОВАТЬ:</h3>
+            </div>
+            <div class="catalog-sort__filter">
+              <ul>
+                <li><a href="#" class="variant">ПО ЦЕНЕ</a></li>
+                <li><a href="#" class="variant">ПО ТИПУ</a></li>
+                <li><a href="#" class="variant">ПО НАЗВАНИЮ</a></li>
+
+                <a href="#" class="direction">
+                  <img src="img/icon-down-dir.png" alt="down"
+                /></a>
+                <a href="#" class="direction">
+                  <img src="img/icon-up-dir.png" alt="up"
+                /></a>
+              </ul>
             </div>
           </div>
-          <div class="box">
-            <article class="image">
-              <div class="actions">
-                <img class="browser1" src="img/browser.png" alt="browser1" />
-                <div class="empty">
-                  <div class="details">
-                    <div class="details-front">
-                      <h2>SEDONA</h2>
-                      <p>Информационный сайт для туристов</p>
-                    </div>
+        </div>
+        <div class="catalog__stores">
+          <article class="catalog__box">
+            <div class="catalog-box__actions">
+              <img class="panel" src="img/browser.png" alt="panel" />
+              <div class="empty">
+                <div class="details">
+                  <div class="details__front">
+                    <h2>SEDONA</h2>
+                    <p>Информационный сайт для туристов</p>
+                  </div>
 
-                    <div class="button">
-                      <a href="#" class="price">9900 руб.</a>
-                    </div>
+                  <div class="details__button">
+                    <a href="#" class="price">9900 руб.</a>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="catalog-item-image">
-                <img src="img/img-sedona.jpg.png" alt="sedona" />
-              </div>
-            </article>
-            <article class="image">
-              <div class="actions">
-                <img class="browser1" src="img/browser.png" alt="browser1" />
-                <div class="empty">
-                  <div class="details">
-                    <h2>PINK APP</h2>
-                    <p>Продуктовый лендинг приложения для iOS и Android</p>
-                    <div class="button">
-                      <a href="#" class="price">9900 руб.</a>
-                    </div>
+            <div class="catalog-box__image">
+              <img src="img/img-sedona.jpg.png" alt="sedona" />
+            </div>
+          </article>
+          <article class="catalog__box">
+            <div class="catalog-box__actions">
+              <img class="panel" src="img/browser.png" alt="panel" />
+              <div class="empty">
+                <div class="details">
+                  <h2>PINK APP</h2>
+                  <p>Продуктовый лендинг приложения для iOS и Android</p>
+                  <div class="button">
+                    <a href="#" class="price">9900 руб.</a>
                   </div>
                 </div>
               </div>
-              <div class="catalog-item-image">
-                <img src="img/img-pink.jpg.png" alt="pink" />
-              </div>
-            </article>
-            <article class="image">
-              <div class="actions">
-                <img class="browser1" src="img/browser.png" alt="browser1" />
-                <div class="empty">
-                  <div class="details">
-                    <h2>BARBERSHOP</h2>
-                    <p>Сайт для барбершопа</p>
-                    <div class="button">
-                      <a href="#" class="price">9900 руб.</a>
-                    </div>
+            </div>
+            <div class="catalog-box__image">
+              <img src="img/img-pink.jpg.png" alt="pink" />
+            </div>
+          </article>
+          <article class="catalog__box">
+            <div class="catalog-box__actions">
+              <img class="panel" src="img/browser.png" alt="panel" />
+              <div class="empty">
+                <div class="details">
+                  <h2>BARBERSHOP</h2>
+                  <p>Сайт для барбершопа</p>
+                  <div class="button">
+                    <a href="#" class="price">9900 руб.</a>
                   </div>
                 </div>
               </div>
-              <div class="catalog-item-image">
-                <img src="img/img-barbershop.jpg.png" alt="barbershop" />
-              </div>
-            </article>
-            <article class="image">
-              <div class="actions">
-                <img class="browser1" src="img/browser.png" alt="browser1" />
-                <div class="empty">
-                  <div class="details">
-                    <h2>MISHKA</h2>
-                    <p>Интернет-магазин изделий ручной работы для дома</p>
-                    <div class="button">
-                      <a href="#" class="price">9900 руб.</a>
-                    </div>
+            </div>
+            <div class="catalog-box__image">
+              <img src="img/img-barbershop.jpg.png" alt="barbershop" />
+            </div>
+          </article>
+          <article class="catalog__box">
+            <div class="catalog-box__actions">
+              <img class="panel" src="img/browser.png" alt="panel" />
+              <div class="empty">
+                <div class="details">
+                  <h2>MISHKA</h2>
+                  <p>Интернет-магазин изделий ручной работы для дома</p>
+                  <div class="button">
+                    <a href="#" class="price">9900 руб.</a>
                   </div>
                 </div>
               </div>
-              <div class="catalog-item-image">
-                <img src="img/img-mishka.jpg.png" alt="mishka" />
-              </div>
-            </article>
-            <article class="image">
-              <div class="actions">
-                <img class="browser1" src="img/browser.png" alt="browser1" />
-                <div class="empty">
-                  <div class="details">
-                    <h2>APLUS</h2>
-                    <p>Сайт кафедры обучения</p>
-                    <div class="button">
-                      <a href="#" class="price">9900 руб.</a>
-                    </div>
+            </div>
+            <div class="catalog-box__image">
+              <img src="img/img-mishka.jpg.png" alt="mishka" />
+            </div>
+          </article>
+          <article class="catalog__box">
+            <div class="catalog-box__actions">
+              <img class="panel" src="img/browser.png" alt="panel" />
+              <div class="empty">
+                <div class="details">
+                  <h2>APLUS</h2>
+                  <p>Сайт кафедры обучения</p>
+                  <div class="button">
+                    <a href="#" class="price">9900 руб.</a>
                   </div>
                 </div>
               </div>
-              <div class="catalog-item-image">
-                <img src="img/img-aplus.jpg.png" alt="aplus" />
-              </div>
-            </article>
-            <article class="image">
-              <div class="actions">
-                <img class="browser1" src="img/browser.png" alt="browser1" />
-                <div class="empty">
-                  <div class="details">
-                    <h2>KVAST</h2>
-                    <p>Рекламный сайт для крафтового кваса</p>
-                    <div class="button">
-                      <a href="#" class="price">9900 руб.</a>
-                    </div>
+            </div>
+            <div class="catalog-box__image">
+              <img src="img/img-aplus.jpg.png" alt="aplus" />
+            </div>
+          </article>
+          <article class="catalog__box">
+            <div class="catalog-box__actions">
+              <img class="panel" src="img/browser.png" alt="panel" />
+              <div class="empty">
+                <div class="details">
+                  <h2>KVAST</h2>
+                  <p>Рекламный сайт для крафтового кваса</p>
+                  <div class="button">
+                    <a href="#" class="price">9900 руб.</a>
                   </div>
                 </div>
               </div>
-              <div class="catalog-item-image">
-                <img src="img/img-kvast.jpg.png" alt="kvast" />
-              </div>
-            </article>
-          </div>
+            </div>
+            <div class="catalog-box__image">
+              <img src="img/img-kvast.jpg.png" alt="kvast" />
+            </div>
+          </article>
+        </div>
 
-          <div class="page">
-            <a class="number">1</a>
-            <a class="number">2</a>
-            <a class="number">3</a>
-            <a class="next">СЛЕДУЮЩАЯ</a>
-          </div>
-          <div class="clearfix"></div>
+        <div class="catalog__page">
+          <a class="catalog-page__number">1</a>
+          <a class="catalog-page__number">2</a>
+          <a class="catalog-page__number">3</a>
+          <a class="catalog-page__next">СЛЕДУЮЩАЯ</a>
         </div>
       </div>
     </div>
-    <footer class="main-footer">
-      <div class="map">
-        <img alt="Слой-2" src="img/Слой_2.png" />
+    <footer class="footer">
+      <div class="footer__map">
+        <img alt="map" src="img/Слой_2.png" />
         <div class="container">
-          <div class="location">
-            <div class="address">
+          <div class="footer-map__location map">
+            <div class="map__address">
               <div class="contact-address ">
                 <h4>NЁRDS DESIGN STUDIO</h4>
                 <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -280,7 +276,7 @@
                 </p>
               </div>
               <div class="button">
-                <a href="#" class=".main-button">НАПИШИТЕ НАМ</a>
+                <a href="#" class="main-button write-us">НАПИШИТЕ НАМ</a>
               </div>
             </div>
             <div class="map-marker">
