@@ -39,12 +39,6 @@ ul {
   width: 100%;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .header-wrapper a {
   display: inline-block;
 }
@@ -251,6 +245,12 @@ ul {
   padding-left: 45px;
   padding-right: 44px;
   height: 52px;
+}
+.footer__map {
+  width: 100%;
+}
+.map-pic {
+  width: 100%;
 }
 .footer-map__address {
   padding: 30px;
