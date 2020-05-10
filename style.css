@@ -36,7 +36,7 @@ ul {
 }
 .header {
   background: #eeeeee;
-  width: 100%;
+  min-width: 100%;
 }
 
 .header-wrapper a {
@@ -247,10 +247,10 @@ ul {
   height: 52px;
 }
 .footer__map {
-  width: 100%;
+  min-width: 100%;
 }
 .map-pic {
-  width: 100%;
+  min-width: 100%;
 }
 .footer-map__address {
   padding: 30px;
