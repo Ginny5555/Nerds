@@ -6,9 +6,10 @@ body {
   margin: 0 auto;
   background: #fff;
   padding: 0px;
+  display: inline-flex;
+  flex-direction: column;
 }
 .container {
-  width: 100%;
   max-width: 1161px;
   margin: 0 auto;
 }
