@@ -8,6 +8,7 @@ body {
   padding: 0px;
   display: inline-flex;
   flex-direction: column;
+  min-width: 100%;
 }
 .container {
   max-width: 1161px;
@@ -43,7 +44,6 @@ ul {
 .header {
   background: #eeeeee;
   min-width: 100%;
-  display: flex;
 }
 
 .header-wrapper a {
@@ -257,9 +257,10 @@ ul {
   width: 100%;
 }
 
-.map-pic {
+.map {
   min-width: 100%;
 }
+
 .footer-map__address {
   padding: 30px;
   box-sizing: border-box;
