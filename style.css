@@ -1,16 +1,21 @@
+html {
+  width: 100%;
+}
 body {
   font-family: "Roboto";
-  margin: 0px;
+  margin: 0 auto;
   background: #fff;
+  padding: 0px;
 }
 .container {
-  width: 1161px;
+  width: 100%;
+  max-width: 1161px;
   margin: 0 auto;
 }
 .wrapper {
   position: relative;
   overflow: hidden;
-  min-height: 100%;
+
   display: flex;
   justify-content: space-between;
 }
@@ -37,6 +42,7 @@ ul {
 .header {
   background: #eeeeee;
   min-width: 100%;
+  display: flex;
 }
 
 .header-wrapper a {
@@ -247,8 +253,9 @@ ul {
   height: 52px;
 }
 .footer__map {
-  min-width: 100%;
+  width: 100%;
 }
+
 .map-pic {
   min-width: 100%;
 }
@@ -331,6 +338,10 @@ ul {
   align-items: center;
   justify-content: center;
 }
+.shape1 img {
+  max-width: 18px;
+  max-height: 18px;
+}
 .shape1:hover {
   background: #e74246;
 }
@@ -343,9 +354,10 @@ ul {
 .insta:active {
   opacity: 0.1;
 }
-.network {
+.network img {
   position: absolute;
 }
+
 .vk {
   margin: 0;
 }
